@@ -1,0 +1,895 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0bfbb32b-cd23-40fe-93b2-5a7bb871a64f",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'Print' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[1], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;66;03m#a) Print your name\u001b[39;00m\n\u001b[1;32m----> 2\u001b[0m Print(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mJay Dubbya\u001b[39m\u001b[38;5;124m\"\u001b[39m)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'Print' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "#a) Print your name\n",
+    "Print(\"Jay Dubbya\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "8b42ebdf-d6f2-4f0f-a3fa-800d5d32ff33",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jay Dubbya\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Jay Dubbya\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "c101cd8b-ae54-4abf-b8be-7c07bfc22bec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I love doing this, I never thought that I would be good enough to even start doing something like this!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"I love doing this, I never thought that I would be good enough to even start doing something like this!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "5c45b10d-fadb-4b50-bef8-f2e8cb4bc6f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello AI world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "# b) Print a greeting\n",
+    "print(\"Hello AI world!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "498d41da-6006-4dd2-b9af-fe85ccfc94e2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello, World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello, World!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "d212b741-ad7f-46fb-aadf-29a676178fca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello again!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"hello again!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "12c54177-f09b-4a11-ae98-b217603aae9d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "How far appart can the spaces go?\n"
+     ]
+    }
+   ],
+   "source": [
+    "print       (\"How far appart can the spaces go?\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "1a23faa4-da9c-44ca-a5a2-b10d55967ffe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "oh, I see now\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"oh, I see now\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "02030db1-6325-45a9-86ae-b03e772fbb6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I am 39 years old. But I feel about 25!\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Variables ##\n",
+    "# assign your age to a variable and print it\n",
+    "age = 39\n",
+    "print (\"I am 39 years old. But I feel about 25!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "5aa5b954-7528-4500-9898-5d477e83bd28",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ever since I started going Keto, my life has been much better. I can think again!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Ever since I started going Keto, my life has been much better. I can think again!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "7e3934d4-e03b-44f3-a825-b6d70b4012ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my favorite color is orange\n"
+     ]
+    }
+   ],
+   "source": [
+    "# b) Assign your favorite color and print a sentence\n",
+    "favorite_color = \"orange\"\n",
+    "print (\"my favorite color is orange\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "af71359d-8856-4ca3-9ea0-cffe2a4dddbb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My favorite place to be is home with my wife and kids.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# c) assign your favorite place and tell why\n",
+    "favorite_place = \"When I am home with my family, also San Fransisco 20 years ago.\"\n",
+    "print ( \"My favorite place to be is home with my wife and kids.\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "b208bcad-bed1-4456-a000-523eddf566b2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20 years ago, I would have loved to go back and visit San Francisco for a while or have a vacation there. It is sad how terrible it looks now. It makes my heart hurt.\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"20 years ago, I would have loved to go back and visit San Francisco for a while or have a vacation there. It is sad how terrible it looks now. It makes my heart hurt.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "160e0f3c-5d3b-49da-8a2c-e94be7ff0a86",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the sum of a and b is: 20\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Arithmetic Operations ##\n",
+    "# a) Sum two numbers and print the result\n",
+    "a = 7\n",
+    "b = 13\n",
+    "print (\"the sum of a and b is:\", a + b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "908cdd0a-6fbf-4c03-98ae-a5a4c66307ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the product of x and y is: 24\n"
+     ]
+    }
+   ],
+   "source": [
+    "# b) Multiply two numbers and print the result\n",
+    "x = 3\n",
+    "y = 8 \n",
+    "print (\"the product of x and y is:\", x * y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "27a27ff9-bbca-4309-9af0-0581597d81a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 4) (2222249879.py, line 4)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[18], line 4\u001b[1;36m\u001b[0m\n\u001b[1;33m    print(\"20 divided by 5 is:', dividend / divisor)\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m unterminated string literal (detected at line 4)\n"
+     ]
+    }
+   ],
+   "source": [
+    "# c) Divide two numbers and print the result\n",
+    "dividend = 20 \n",
+    "divisor = 5\n",
+    "print(\"20 divided by 5 is:', dividend / divisor)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "38ea9da8-4610-4bea-acc4-3b14ca868f3a",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'dividend' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[19], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m20 divided by 5 is:\u001b[39m\u001b[38;5;124m\"\u001b[39m, dividend \u001b[38;5;241m/\u001b[39m divisor)\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'dividend' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"20 divided by 5 is:\", dividend / divisor)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "38b401f9-01c3-40b3-a6e8-8e00487c3a08",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20 divided by 5 is: 4.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# c) Divide two numbers and print the result\n",
+    "dividend = 20 \n",
+    "divisor = 5\n",
+    "print(\"20 divided by 5 is:\", dividend / divisor)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "89c0dc7e-1c9a-44da-a97f-53fb65c3ce3e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Result: 7.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Predict and print the result, then verify it by running the code\n",
+    "result = 3 + 4 * 2 - (6 / 3) ** 2\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "daaad7ba-c88c-49d3-94ed-4d6b6d050db6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Result: 5.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Predict and print the result, then verify it by running the code\n",
+    "result = 1 + 4 * 2 - (6 / 3) ** 2\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "2cc797c4-152c-42ea-a541-df2e92b6b4cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Result: 3461.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Predict and print the result, then verify it by running the code\n",
+    "result = 3456.2 + 4.5 * 2 - (6 / 3) ** 2\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "bd10d3a5-a5a2-42d8-ae6a-20d00ffc9f6f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Quotient: 5\n",
+      "Remainder: 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Calculate quotient and remainder of dividing 29 by 5\n",
+    "quotient = 29 // 5   # Integer division (no decimals)\n",
+    "remainder = 29 % 5   # Modulo (the remainder)\n",
+    "print(\"Quotient:\", quotient)\n",
+    "print(\"Remainder:\", remainder)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "f585139e-f783-4f96-af7f-8ca20e1e56b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Quotient: 40\n",
+      "Remainder: 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Calculate quotient and remainder of dividing 200 by 5\n",
+    "quotient = 200 // 5   # Integer division (no decimals)\n",
+    "remainder = 29 % 5   # Modulo (the remainder)\n",
+    "print(\"Quotient:\", quotient)\n",
+    "print(\"Remainder:\", remainder)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "82875fab-ef54-46a4-8dae-737c12419189",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Quotient: 0\n",
+      "Remainder: 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Modulo and Integer Division ##\n",
+    "\n",
+    "# Calculate quotient and remainder of dividing 2999 by 5287\n",
+    "quotient = 2999 // 5287   # Integer division (no decimals)\n",
+    "remainder = 29 % 5   # Modulo (the remainder)\n",
+    "print(\"Quotient:\", quotient)\n",
+    "print(\"Remainder:\", remainder)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "3ccc517e-49c9-4cbb-b09f-0c9e54abee43",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "16 squared is 256\n",
+      "Square root of 16 is 4.0\n",
+      "Cube root of 16 is 2.5198420997897464\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Exponentation and Roots ##\n",
+    "# Calculate powers and square roots\n",
+    "num = 16\n",
+    "square = num ** 2\n",
+    "square_root = num ** 0.5\n",
+    "cube_root = num ** (1/3)\n",
+    "print(\"16 squared is\", square)\n",
+    "print(\"Square root of 16 is\", square_root)\n",
+    "print(\"Cube root of 16 is\", cube_root)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "b517ece6-c30e-4b3c-a8fb-aeb6358d0eee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "150 squared is 22500\n",
+      "Square root of 150 is 22500\n",
+      "Cube root of 150 is 5.313292845913055\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Calculate powers and square roots\n",
+    "num = 150\n",
+    "square = num ** 2\n",
+    "square_root = num ** 2\n",
+    "cube_root = num ** (1/3)\n",
+    "print(\"150 squared is\", square)\n",
+    "print(\"Square root of 150 is\", square_root)\n",
+    "print(\"Cube root of 150 is\", cube_root)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "fbb22e14-a5c4-420a-a7ac-df971565d79f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Raw value: 3.142857142857143\n",
+      "Rounded to 2 decimals: 3.14\n",
+      "Rounded to nearest whole: 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Rounding and Decimal Precistion ##\n",
+    "value = 22 / 7\n",
+    "print(\"Raw value:\", value)               # Shows many decimals\n",
+    "print(\"Rounded to 2 decimals:\", round(value, 2))\n",
+    "print(\"Rounded to nearest whole:\", round(value))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "70d7475b-25a1-45d7-90dd-06b767c765ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Raw value: 78.61538461538461\n",
+      "Rounded to 2 decimals: 78.62\n",
+      "Rounded to nearest whole: 79\n"
+     ]
+    }
+   ],
+   "source": [
+    "value = 7154 / 91\n",
+    "print(\"Raw value:\", value)               # Shows many decimals\n",
+    "print(\"Rounded to 2 decimals:\", round(value, 2))\n",
+    "print(\"Rounded to nearest whole:\", round(value))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "eb0b4c21-cbf4-4cce-8b77-2a6a126f156b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Raw value: 115.08583391486393\n",
+      "Rounded to 2 decimals: 115.09\n",
+      "Rounded to nearest whole: 115\n"
+     ]
+    }
+   ],
+   "source": [
+    "value = 82459 / 716.5\n",
+    "print(\"Raw value:\", value)               # Shows many decimals\n",
+    "print(\"Rounded to 2 decimals:\", round(value, 2))\n",
+    "print(\"Rounded to nearest whole:\", round(value))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "d354294a-ee2d-4afe-9c7f-624d763b2c42",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Simple Interest: 210.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Simple Interest Calculation ##\n",
+    "\n",
+    "# SI = P * R * T / 100\n",
+    "principal = 1500\n",
+    "rate = 3.5   # percentage\n",
+    "time = 4     # years\n",
+    "simple_interest = (principal * rate * time) / 100\n",
+    "print(\"Simple Interest:\", simple_interest)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "6a509fe5-4a8d-46e6-8cda-eeba41802706",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Simple Interest: 2047272.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "# SI = P * R * T / 100\n",
+    "principal = 899900\n",
+    "rate = 3.5   # percentage\n",
+    "time = 65     # years\n",
+    "simple_interest = (principal * rate * time) / 100\n",
+    "print(\"Simple Interest:\", simple_interest)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "fac119af-7c99-46e9-b532-8d98fb0a868e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## I wish I had that for my Simple Interest ## I can barely afford to pay attention#"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "87aa6243-d83e-4104-b61c-459ab46f6c34",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BMI: 22.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "## BMI Calculator (Body Mass Index) ## ###\n",
+    "\n",
+    "# BMI = weight (kg) / (height (m) ** 2)\n",
+    "weight_kg = 68\n",
+    "height_m = 1.75\n",
+    "bmi = weight_kg / (height_m ** 2)\n",
+    "print(\"BMI:\", round(bmi, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "8198f918-ad21-4308-96df-b24219372594",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "BMI: 6.03\n"
+     ]
+    }
+   ],
+   "source": [
+    "# BMI = weight (lbs) / (height (ft) ** 2)\n",
+    "weight_lbs = 210\n",
+    "height_ft = 5.9\n",
+    "bmi = weight_lbs / (height_ft ** 2)\n",
+    "print(\"BMI:\", round(bmi, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "fcd8f8cc-2661-42b4-9391-ad434c288f54",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25 degrees Celsius is 77.0 degrees Fahrenheit\n",
+      "77.0 degrees Fahrenheit is 25.0 degrees Celsius\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Temperature Conversion ##\n",
+    "\n",
+    "# Convert Celsius to Fahrenheit and back\n",
+    "celsius = 25\n",
+    "fahrenheit = (celsius * 9/5) + 32\n",
+    "print(celsius, \"degrees Celsius is\", fahrenheit, \"degrees Fahrenheit\")\n",
+    "\n",
+    "# Convert Fahrenheit back to Celsius\n",
+    "c_back = (fahrenheit - 32) * 5/9\n",
+    "print(fahrenheit, \"degrees Fahrenheit is\", c_back, \"degrees Celsius\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "087b523b-0d74-4f2d-a623-830c6659ad39",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Numbers: [13, 17, 22, 35, 19]\n",
+      "Sum: 106\n",
+      "Average: 21.2\n",
+      "Max: 35\n",
+      "Min: 13\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Average, Sum, and Statistics with a List ##\n",
+    "\n",
+    "numbers = [13, 17, 22, 35, 19]\n",
+    "total = sum(numbers)\n",
+    "average = total / len(numbers)\n",
+    "max_val = max(numbers)\n",
+    "min_val = min(numbers)\n",
+    "print(\"Numbers:\", numbers)\n",
+    "print(\"Sum:\", total)\n",
+    "print(\"Average:\", average)\n",
+    "print(\"Max:\", max_val)\n",
+    "print(\"Min:\", min_val)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "44c96426-7975-4776-abd7-3ebb38ad0710",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Numbers: [10, 89, 22, 395, 111]\n",
+      "Sum: 627\n",
+      "Average: 125.4\n",
+      "Max: 395\n",
+      "Min: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "numbers = [10, 89, 22, 395, 111]\n",
+    "total = sum(numbers)\n",
+    "average = total / len(numbers)\n",
+    "max_val = max(numbers)\n",
+    "min_val = min(numbers)\n",
+    "print(\"Numbers:\", numbers)\n",
+    "print(\"Sum:\", total)\n",
+    "print(\"Average:\", average)\n",
+    "print(\"Max:\", max_val)\n",
+    "print(\"Min:\", min_val)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "b6068937-dd08-4195-95fa-c1365aef098a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Result: 7.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Compound Arithmetic Expressions ## ##\n",
+    "\n",
+    "# Calculate the result of a complex expression\n",
+    "a = 12\n",
+    "b = 6\n",
+    "c = 3\n",
+    "result = ((a + b) * 2 - (c * 5)) / (b - c)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "cebb3a12-1b73-441f-9a54-caa397630efe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area of triangle: 17.32\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Challenge: Find the Area of a Triangle Given Three Sides\n",
+    "## Use Heron's Formula:\n",
+    "\n",
+    "# s=(a+b+c)/2 s = (a+b+c)/2 area = ×(s−c)\n",
+    "#   area= s×(s−a)×(s−b)×(s−c)\n",
+    "\n",
+    "import math\n",
+    "a = 5\n",
+    "b = 7\n",
+    "c = 8\n",
+    "s = (a + b + c) / 2\n",
+    "area = math.sqrt(s * (s - a) * (s - b) * (s - c))\n",
+    "print(\"Area of triangle:\", round(area, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "071ed18d-2010-460f-897a-fc8c5ece6b19",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
